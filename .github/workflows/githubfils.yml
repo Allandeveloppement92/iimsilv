@@ -1,0 +1,19 @@
+name : "My Workflow"
+
+on:
+  pull_request:
+  push:
+    branches:
+      # ...
+
+#execution en parrallèle ou seul à partir de ce qui est mentionné dans ke 'on'
+jobs:
+  build:
+    steps:
+      # ...
+
+  test: 
+    # ...
+
+  deploy: 
+
